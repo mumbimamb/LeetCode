@@ -18,15 +18,6 @@
     <ClCompile Include="LeetCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Solution1991.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution2949.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Solution2273.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Solution1991.h">

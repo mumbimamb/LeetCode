@@ -13,7 +13,7 @@ public:
 
     #define ll long long
 
-    bool isvowel(char ch) { return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'; }
+    bool isVowel(char ch) { return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'; }
 
     // Return the number of non-empty beautiful substrings in the given string 
     // s. Vowels are 'a', 'e', 'i', 'o', and 'u'.
@@ -35,7 +35,7 @@ public:
         mp[0][0] = 1;
 
         for (char ch : s) {
-            ++(isvowel(ch) ? a : b);
+            ++(isVowel(ch) ? a : b);
 
 
             for (auto& [z, count] : mp[a - b])
