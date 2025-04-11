@@ -32,5 +32,8 @@
     <ClInclude Include="Solution3409.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Solution2600.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
